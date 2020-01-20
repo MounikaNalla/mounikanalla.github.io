@@ -589,17 +589,28 @@ pre code {
     .container {
         max-width: 720px
     }
+    #contactForm a {
+        margin-bottom: 10px;
+        width: 45%;
+    }
 }
 
 @media (min-width:992px) {
     .container {
         max-width: 960px
     }
+    #contactForm a {
+        margin-bottom: 10px;
+        width: 45%;
+    }
 }
 
 @media (min-width:1200px) {
     .container {
         max-width: 1140px
+    }
+    #contactForm a {
+        margin-bottom: 10px;
     }
 }
 
@@ -1743,6 +1754,10 @@ pre code {
     .table-responsive-sm>.table-bordered {
         border: 0
     }
+    #contactForm a {
+        width: 100%;
+        margin-bottom: 10px;
+    }
 }
 
 @media (max-width:767.98px) {
@@ -1754,6 +1769,10 @@ pre code {
     }
     .table-responsive-md>.table-bordered {
         border: 0
+    }
+    #contactForm a {
+        width: 100%;
+        margin-bottom: 10px;
     }
 }
 
@@ -4252,6 +4271,10 @@ input[type=submit].btn-block {
         padding-right: 0;
         padding-left: 0
     }
+    #contactForm a {
+        width: 100%;
+        margin-bottom: 10px;
+    }
 }
 
 @media (min-width:576px) {
@@ -4288,6 +4311,10 @@ input[type=submit].btn-block {
         padding-right: 0;
         padding-left: 0
     }
+    #contactForm a {
+        width: 100%;
+        margin-bottom: 10px;
+    }
 }
 
 @media (min-width:768px) {
@@ -4323,6 +4350,10 @@ input[type=submit].btn-block {
     .navbar-expand-lg>.container-fluid {
         padding-right: 0;
         padding-left: 0
+    }
+    #contactForm a {
+        width: 45%;
+        margin-bottom: 10px;
     }
 }
 
@@ -9765,8 +9796,8 @@ a.text-dark:hover {
 
 @media print {
     *,
-    ::after,
-    ::before {
+     ::after,
+     ::before {
         text-shadow: none!important;
         box-shadow: none!important
     }
@@ -10142,6 +10173,6 @@ form .row:first-child .floating-label-form-group {
     background-color: #1a252f
 }
 
-.mrt-610 {
-    margin-right: -610px!important
+#contactForm a {
+    margin-right: 10px;
 }
